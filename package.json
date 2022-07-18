@@ -2,7 +2,7 @@
   "name": "ashleyliang",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ashleyliangg.github.io/ashleyliang.me-react",
+  "homepage": "http://ashleyliangg.me",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
