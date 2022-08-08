@@ -22,10 +22,17 @@ code {
 
 .profilePic {
   display: inline;
-  width: 400px;
+  width: 350px;
   height: auto;
   float: left;
   margin: 0px 10px;
+}
+
+@media screen and (max-width: 460px) {
+  .profilePic {
+    width: 85vw;
+    margin: 0 2vw;
+  }
 }
 
 .bodyText {
