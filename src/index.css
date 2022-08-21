@@ -20,18 +20,42 @@ code {
   text-align: center;
 }
 
+/* .circular--landscape { 
+  display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } 
+.circular--landscape img { width: auto; height: 100%; margin-left: -50px; } */
+/* .image-cropper {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 10px;
+} */
+
 .profilePic {
   display: inline;
+  border-radius: 50%;
   width: 350px;
   height: auto;
   float: left;
-  margin: 0px 10px;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
 @media screen and (max-width: 460px) {
+  /* .image-cropper {
+    width: 85vw;
+    height: 85vw;
+    margin: 0 2vw;
+  }
+
   .profilePic {
     width: 85vw;
-    margin: 0 2vw;
+  } */
+  .profilePic {
+    width: 85vw;
+    margin: 0 2vw 3vw 2vw; /* top, right, bottom, left*/
   }
 }
 

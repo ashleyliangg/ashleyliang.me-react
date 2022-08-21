@@ -49,6 +49,14 @@ const Trip = () => {
     //didn't put classname page as div because map becomes off-centered when that happens
     <div>
         <h1 className='header'>My cross-country roadtrip!</h1>
+        <p className='bodyText' style={{margin: '10px'}}>
+          During the month of June 2022, my family went on a cross-country roadtrip where we traveled through 19
+          states and 2 Canadian provinces. Below is the approximate journey we took, starting fom the orange pin (at 
+          Dartmouth) and ending at the red pin (Kirkland, WA).
+        </p>
+        <p className='bodyText' style={{fontWeight: 'bold', fontStyle: 'italic', margin: '10px'}}>
+          Click on the pins below to read more about each of our stops on the trip!
+        </p>
         <div className='map'>
           <MapContainer
             center={center}
