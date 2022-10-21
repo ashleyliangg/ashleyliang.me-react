@@ -7,6 +7,7 @@ import Home from './pages/homepage';
 import Contact from './pages/contact';
 import Trip from './pages/roadtrip';
 import Sidebar from './components/Sidebar';
+import Resume from './pages/resume';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +24,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Home />} exact/>
             <Route path='/roadtrip' element={<Trip/>} />
+            <Route path='/resume' element={<Resume/>} />
             <Route path='/contact' element={<Contact/>} />
         </Routes>
       </div>

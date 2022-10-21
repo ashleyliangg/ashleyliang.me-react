@@ -19,13 +19,12 @@ const Navbar = ({toggle}) => {
           <NavLink to="/roadtrip" activestyle="true">
             Roadtrip
           </NavLink>
+          <NavLink to="/resume" activestyle="true">
+            Resume
+          </NavLink>
           <NavLink to="/contact" activestyle="true">
             Contact
           </NavLink>
-          {/* link to resume pdf */}
-          <a className='extlink' href="https://drive.google.com/file/d/18e8mhCWqqYPOPZ9rK_14-d-Gpi4nZBlW/view?usp=sharing">
-            Resume
-          </a>
         </NavMenu>
       </Nav>
     </>
@@ -36,7 +35,10 @@ export default Navbar;
 
 
 
-
+          {/* link to resume pdf
+          <a className='extlink' href="https://drive.google.com/file/d/18e8mhCWqqYPOPZ9rK_14-d-Gpi4nZBlW/view?usp=sharing">
+            Resume
+          </a> */}
 
         // {/* navigation bar container */}
         // <NavMenu>

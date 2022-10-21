@@ -5,10 +5,10 @@ import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
 //icon for the start of the trip
-const startIcon = new L.icon({
-  iconUrl: require("../images/start.png"),
-  iconSize: [35, 45],
-})
+// const startIcon = new L.icon({
+//   iconUrl: require("../images/start.png"),
+//   iconSize: [35, 45],
+// })
 
 //icon for the stops on the trip, larger size because image smaller
 const tripPin = new L.icon({
@@ -16,7 +16,7 @@ const tripPin = new L.icon({
   iconSize: [45, 55],
 })
 
-//icon for the end of the trip
+//icon for the start and end of the trip
 const endIcon = new L.icon({
   iconUrl: require("../images/end.png"),
   iconSize: [35, 45],
@@ -62,6 +62,7 @@ const Trip = () => {
             center={center}
             zoom={ZOOM_LEVEL}
             ref={mapRef}
+            style={{width: '80vw'}}
           >
             <TileLayer url={osmProviders.maptiler.url} attribution={osmProviders.maptiler.attribution} />
 
@@ -70,7 +71,7 @@ const Trip = () => {
             <Polyline pathOptions={{ color: 'purple'}} positions={tripCoord} />
 
             {/* starting point: Dartmouth */}
-            <Marker position={tripCoord[0]} icon={startIcon}>
+            <Marker position={tripCoord[0]} icon={endIcon}>
               <Popup>
                 <h3>1: Dartmouth College (START)</h3>
                 <b>My freshman year finished, and the roadtrip began!</b>

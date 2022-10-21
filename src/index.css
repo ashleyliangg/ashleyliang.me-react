@@ -20,19 +20,6 @@ code {
   text-align: center;
 }
 
-/* .circular--landscape { 
-  display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } 
-.circular--landscape img { width: auto; height: 100%; margin-left: -50px; } */
-/* .image-cropper {
-  display: inline-block;
-  position: relative;
-  width: 350px;
-  height: 350px;
-  overflow: hidden;
-  border-radius: 50%;
-  margin: 0 10px;
-} */
-
 .profilePic {
   display: inline;
   border-radius: 50%;
@@ -43,16 +30,23 @@ code {
   margin-right: 30px;
 }
 
-@media screen and (max-width: 460px) {
-  /* .image-cropper {
-    width: 85vw;
-    height: 85vw;
-    margin: 0 2vw;
-  }
+.hyperlink {
+  color: #2ad4a0;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  .profilePic {
-    width: 85vw;
-  } */
+.contact {
+  text-align: left;
+  margin-left: 40vw;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+@media screen and (max-width: 460px) {
   .profilePic {
     width: 85vw;
     margin: 0 2vw 3vw 2vw; /* top, right, bottom, left*/
@@ -98,11 +92,28 @@ a.extlink {
   display: flex;
   justify-content: center;
   /* wanted a bit of space near the edges */
-  width: 100vw;
   height: 80vh;
 }
 
 .leaflet-container {
   height: 100%;
   width: 96vw;
+}
+
+.resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: auto;
+}
+
+.react-pdf__Page__textContent {
+  margin-top: -2px !important;
+}
+
+.react-pdf__Page__canvas {
+  display: inline-block !important;
+  width: 60vw !important;
+  height: auto !important;
 }
