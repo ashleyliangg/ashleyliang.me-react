@@ -4,22 +4,17 @@ import osmProviders from '../osm-providers';
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
-//icon for the start of the trip
-// const startIcon = new L.icon({
-//   iconUrl: require("../images/start.png"),
-//   iconSize: [35, 45],
-// })
 
 //icon for the stops on the trip, larger size because image smaller
 const tripPin = new L.icon({
-  iconUrl: require("../images/pin.png"),
-  iconSize: [45, 55],
+  iconUrl: require("../images/pushpin.png"),
+  iconSize: [35, 35],
 })
 
 //icon for the start and end of the trip
 const endIcon = new L.icon({
-  iconUrl: require("../images/end.png"),
-  iconSize: [35, 45],
+  iconUrl: require("../images/startend.png"),
+  iconSize: [55, 55],
 })
   
 //Coordinates from Google search
@@ -51,8 +46,8 @@ const Trip = () => {
         <h1 className='header'>My cross-country roadtrip!</h1>
         <p className='bodyText' style={{margin: '10px'}}>
           During the month of June 2022, my family went on a cross-country roadtrip where we traveled through 19
-          states and 2 Canadian provinces. Below is the approximate journey we took, starting fom the orange pin (at 
-          Dartmouth) and ending at the red pin (Kirkland, WA).
+          states and 2 Canadian provinces. Below is the approximate journey we took, starting fom the blue pin on the 
+          east coast (at Dartmouth) and ending at the blue pin on the west coast (Kirkland, WA).
         </p>
         <p className='bodyText' style={{fontWeight: 'bold', fontStyle: 'italic', margin: '10px'}}>
           Click on the pins below to read more about each of our stops on the trip!

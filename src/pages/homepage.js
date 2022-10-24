@@ -32,6 +32,7 @@ const Home = () => {
       </p>
       <p className='bodyText'>
         <b>Languages:</b>
+        {/* images of all languages */}
         <img style={{width: '60px', height: 'auto'}} src={python} alt="python logo"/>
         <img style={{width: '60px', height: 'auto'}} src={java} alt="java logo"/>
         <img style={{width: '50px', height: 'auto'}} src={c} alt="c language logo"/>
