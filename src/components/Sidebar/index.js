@@ -22,10 +22,6 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="/contact" activestyle="true" onClick={toggle}>
                         Contact
                     </SidebarLink>
-                    {/* link to resume pdf */}
-                    {/* <a className='sidebarlink' href="https://drive.google.com/file/d/18e8mhCWqqYPOPZ9rK_14-d-Gpi4nZBlW/view?usp=sharing">
-                        Resume
-                    </a> */}
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>

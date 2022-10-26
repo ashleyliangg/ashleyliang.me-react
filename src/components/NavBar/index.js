@@ -32,31 +32,3 @@ const Navbar = ({toggle}) => {
 };
   
 export default Navbar;
-
-
-
-          {/* link to resume pdf
-          <a className='extlink' href="https://drive.google.com/file/d/18e8mhCWqqYPOPZ9rK_14-d-Gpi4nZBlW/view?usp=sharing">
-            Resume
-          </a> */}
-
-        // {/* navigation bar container */}
-        // <NavMenu>
-        //   {/* NavLink is a link that highlights the current place in navbar */}
-        //   <HomeLink to="/" activestyle>
-        //   Ashley Liang
-        //   </HomeLink>
-        //   <NavLink to="/" activestyle>
-        //     Home
-        //   </NavLink>
-        //   <NavLink to="/roadtrip" activestyle>
-        //     Roadtrip
-        //   </NavLink>
-        //   <NavLink to="/contact" activestyle>
-        //     Contact
-        //   </NavLink>
-        //   {/* link to resume pdf */}
-        //   <a style={ExtLink} href="https://drive.google.com/file/d/18e8mhCWqqYPOPZ9rK_14-d-Gpi4nZBlW/view?usp=sharing">
-        //     Resume
-        //   </a>
-        // </NavMenu>

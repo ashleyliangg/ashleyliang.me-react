@@ -14,7 +14,7 @@ export const Nav = styled.nav`
   z-index: 12;
 `;
  
-//parenthesis because called it Link
+//css styled links
 export const NavLink = styled(Link)`
   color: #808080;
   display: flex;
@@ -29,6 +29,7 @@ export const NavLink = styled(Link)`
   }
 `;
 
+//home link with stylized "Ashley Liang"
 export const HomeLink = styled(Link)`
   color: #FFFFFF;
   font-weight: bold;
@@ -55,7 +56,7 @@ export const NavMenu = styled.div`
 `;
 
 
-// //styled ext hyperlink
+// //styled ext hyperlink, removed for now, perhaps will use later
 // export const ExtLink = {
 //   color: '#808080',
 //   display: 'flex',
@@ -80,18 +81,6 @@ export const BarsIcon = styled(FaBars)`
     cursor: pointer;
   }
 `;
-// export const MobileIcon = styled.div`
-//   display: none;
 
-//   @media screen and (max-width: 650px) {
-//     display: block;
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     transform: translate(-100%, 70%);
-//     font-size: 1.8rem;
-//     cursor: pointer;
-//   }
-// `
 
 
