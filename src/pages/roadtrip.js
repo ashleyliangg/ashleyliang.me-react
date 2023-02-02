@@ -129,7 +129,7 @@ const Trip = () => {
             {/* Tennessee */}
             <Marker position={tripCoord[7]} icon={tripPin}>
               <Popup>
-                <h3>8: Nashville and Knoxville, Tennessee.</h3>
+                <h3>8: Nashville and Knoxville, Tennessee</h3>
                 <b>
                   A great time trying southern food, touring the Country Music Hall of Fame, and enjoying the live 
                   music. We also explored the Smoky Mountains and saw black bear cubs up close! A personal 
