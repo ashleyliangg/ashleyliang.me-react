@@ -17,6 +17,7 @@ While creating this website, I took a lot of information from different website 
 - Hyperlinks in the images in the Contact page
 - Styling on the homepage
 - Photo gallery on home page
+- Portfolio of my past projects
 
 ## My Experience
 This website was the first time I've really had to use React. I helped fix some margin and styling in React during an internship my senior summer, but this was my first time creating something - especially from scratch - in React. It took me a few days to create the React app and get it to run because there were a lot of inital errors with setting up my GitHub repository through command line, pushing to the repository due to access issues, installing node.js/npm. Then, when I was attempting to connect my domain to the Github page, I had a typo in my package.json file which didn't let my React package to connect to the domain until I saw the typo a couple days later. Throughout the inital setup process, I learned a lot about how to search up my errors, installing packages, and adding packages to my PATH.
