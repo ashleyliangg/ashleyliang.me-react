@@ -58,6 +58,7 @@ export const SidebarLink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
+	font-family: 'Libre Baskerville', serif;
   font-size: 1.5rem;
   text-decoration: none;
   list-style: none;

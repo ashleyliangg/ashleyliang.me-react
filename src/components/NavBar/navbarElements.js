@@ -18,6 +18,8 @@ export const Nav = styled.nav`
 export const NavLink = styled(Link)`
   color: #808080;
   display: flex;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18px;
   align-items: center;
   text-decoration: none;
   //means 0 padding top/bottom; 1rem padding left/right

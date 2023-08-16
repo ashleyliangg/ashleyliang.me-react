@@ -13,6 +13,9 @@ const Sidebar = ({ isOpen, toggle }) => {
                     <SidebarLink to="/" activestyle="true" onClick={toggle}>
                         Home
                     </SidebarLink>
+										<SidebarLink to="/portfolio" activestyle="true" onClick={toggle}>
+                        Past Projects
+                    </SidebarLink>
                     <SidebarLink to="/roadtrip" activestyle="true" onClick={toggle}>
                         Roadtrip
                     </SidebarLink>

@@ -1,0 +1,54 @@
+{
+	"chatGPT": {
+		"name": "chatGPT",
+		"title": "ChatGPT: An OpenAI Chrome Extension",
+		"coverImg": "../images/skimgpt.png",
+		"img": "https://www.kapwing.com/e/64d7fe77de2e08002563695c?autoplay=true",
+		"content": "Research papers, news articles, and even blog posts are all relatively lengthy and require quite a bit of time out of people's days to read. Society is very fast paced, so not that many people feel like they have time to sit down and read an article. So how can we get the most relevant information as quickly as possible?  \nSkimGPT is a Chrome extension built to help users efficiently digest online articles and blog posts. It uses GPT to generate a summary of the webpage the user is currently on and displays it on the side. The extension itself is not on the Chrome extension store yet because we are currently working on fixing a backend bug that recently popped up  \n \n**Front-end code:** [https://github.com/ashleyliangg/skimgpt-frontend](https://github.com/ashleyliangg/skimgpt-frontend)  \n**Back-end code**: [https://github.com/ashleyliangg/skimpgt-api-backend](https://github.com/ashleyliangg/skimpgt-api-backend)"
+	},
+
+	"animal-posts": {
+		"name": "animal-posts",
+		"title": "Animal Posts Web Application",
+		"coverImg": "../images/animal-post.png",
+		"img": "https://www.kapwing.com/e/64d80c33e961f00011f7ba8e?autoplay=true",
+		"site": "Check out the project at [https://animal-posts.onrender.com/](https://animal-posts.onrender.com/)!",
+		"content": "This is a full-stack posting application where a user can view posts, create posts, update posts, and delete posts. This application uses Redux and MongoDBs mongoose.  \n \n**Front-end code:** [https://github.com/ashleyliangg/animal-posts-client](https://github.com/ashleyliangg/animal-posts-client)[https://github.com/ashleyliangg/animal-posts-api](https://github.com/ashleyliangg/animal-posts-api)"
+	},
+
+	"buzzfeed-quiz": {
+		"name": "buzzfeed-quiz",
+		"title": "Buzzfeed-esque Quiz",
+		"coverImg":"https://user-images.githubusercontent.com/102703391/231049317-46f43a76-e56d-4ff4-b41d-885ce371c58c.png",
+		"img": "https://user-images.githubusercontent.com/102703391/231049367-540cd864-573e-4a07-aa5a-bc4ee0f475d1.png",
+		"site": "Check out the project at [https://study-spot-quiz.onrender.com/](https://study-spot-quiz.onrender.com/)",
+		"content": "This is a project done in HTML, CSS, and Javascript done to resemble a Buzzfeed quiz. I experimented with different CSS animations and learned how to read in json data with this project. \n \n **Code at:** [https://github.com/ashleyliangg/buzzfeed-quiz](https://github.com/ashleyliangg/buzzfeed-quiz)"
+	},
+
+	"tiny-search-engine": {
+		"name": "tiny-search-engine",
+		"title": "Mini Search Engine",
+		"site": "",
+		"coverImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Google_logo_%282013-2015%29.svg/1280px-Google_logo_%282013-2015%29.svg.png",
+		"img": "https://user-images.githubusercontent.com/102703391/248495981-02313ff8-21fb-476b-b84a-6af97176e0e1.png",
+		"content": "This project, made in C, functions like a search engine but on a smaller scale. It has 3 major functions, crawling through the webpages starting from a seed URL, builds an index that matches words to documents, and takes a user query and outputs a ranked list of webpages answering the user's query.  \n  \n **Code:** [https://github.com/ashleyliangg/tiny-search-engine](https://github.com/ashleyliangg/tiny-search-engine)"
+	},
+
+	"nasa": {
+		"name": "nasa",
+		"title": "NASA Picture Diary",
+		"coverImg": "https://user-images.githubusercontent.com/102703391/248438154-b2f3cb36-e1c1-4471-bf76-643378d771dc.png",
+		"img": "https://www.kapwing.com/e/64d80ba86a9e93001ebb365d?autoplay=true",
+		"site": "",
+		"content": "This project, using NASA's a picture of the day API and Bootstrap, displays every single NASA's picture of the day (including the image, the high resolution image, the title, description, credit, etc.) from the very first picture to today. It is equipped with an easy to use date picker and runs locally on your own computer. \n \n **Code:** [https://github.com/ashleyliangg/NASA-pictures](https://github.com/ashleyliangg/NASA-pictures)"
+	},
+
+	"viterbi": {
+		"name": "viterbi",
+		"title": "Part of Speech Identifier",
+		"coverImg": "https://www.audiolabs-erlangen.de/resources/MIR/FMP/data/C5/FMP_C5_F28b.png",
+		"img": "https://user-images.githubusercontent.com/102703391/248640039-ff8db55d-59a6-4478-b063-7111e56b54ed.png",
+		"site": "",
+		"content": "This project, done in Java, uses the viterbi algorithm within a hidden Markov model to predict the part of speech of a user input or text input with a high accuracy rate.  \n \n **Code:** [https://github.com/ashleyliangg/viterbi](https://github.com/ashleyliangg/viterbi)"
+	}
+}

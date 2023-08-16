@@ -8,6 +8,8 @@ import Contact from './pages/contact';
 import Trip from './pages/roadtrip';
 import Sidebar from './components/Sidebar';
 import Resume from './pages/resume';
+import Portfolio from './pages/portfolio';
+import Project from './pages/project';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,29 +25,16 @@ function App() {
         <Navbar toggle={toggle}/>
         <Routes>
             <Route path='/' element={<Home />} exact/>
-            <Route path='/roadtrip' element={<Trip/>} />
-            <Route path='/resume' element={<Resume/>} />
-            <Route path='/contact' element={<Contact/>} />
+            <Route path='/roadtrip' element={<Trip />} />
+            <Route path='/resume' element={<Resume />} />
+            <Route path='/contact' element={<Contact />} />
+						<Route path='/portfolio' element={<Portfolio />} />
+						<Route path='/portfolio/:project' element={<Project />} />
+						<Route path="*" element={<div>Page not found :(</div>} />
         </Routes>
       </div>
     </Router>
 
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
   );
 }
 
