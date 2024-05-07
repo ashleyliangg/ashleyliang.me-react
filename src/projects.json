@@ -3,7 +3,7 @@
 		"name": "chatGPT",
 		"title": "ChatGPT: An OpenAI Chrome Extension",
 		"coverImg": "../images/skimgpt.png",
-		"img": "https://www.kapwing.com/e/64d7fe77de2e08002563695c?autoplay=true",
+		"img": "../images/skimgpt3.mp4",
 		"content": "Research papers, news articles, and even blog posts are all relatively lengthy and require quite a bit of time out of people's days to read. Society is very fast paced, so not that many people feel like they have time to sit down and read an article. So how can we get the most relevant information as quickly as possible?  \nSkimGPT is a Chrome extension built to help users efficiently digest online articles and blog posts. It uses GPT to generate a summary of the webpage the user is currently on and displays it on the side. The extension itself is not on the Chrome extension store yet because we are currently working on fixing a backend bug that recently popped up  \n \n**Front-end code:** [https://github.com/ashleyliangg/skimgpt-frontend](https://github.com/ashleyliangg/skimgpt-frontend)  \n**Back-end code**: [https://github.com/ashleyliangg/skimpgt-api-backend](https://github.com/ashleyliangg/skimpgt-api-backend)"
 	},
 
@@ -11,7 +11,7 @@
 		"name": "animal-posts",
 		"title": "Animal Posts Web Application",
 		"coverImg": "../images/animal-post.png",
-		"img": "https://www.kapwing.com/e/64d80c33e961f00011f7ba8e?autoplay=true",
+		"img": "../images/animal_posts.mp4",
 		"site": "Check out the project at [https://animal-posts.onrender.com/](https://animal-posts.onrender.com/)!",
 		"content": "This is a full-stack posting application where a user can view posts, create posts, update posts, and delete posts. This application uses Redux and MongoDBs mongoose.  \n \n**Front-end code:** [https://github.com/ashleyliangg/animal-posts-client](https://github.com/ashleyliangg/animal-posts-client)[https://github.com/ashleyliangg/animal-posts-api](https://github.com/ashleyliangg/animal-posts-api)"
 	},
@@ -38,7 +38,7 @@
 		"name": "nasa",
 		"title": "NASA Picture Diary",
 		"coverImg": "https://user-images.githubusercontent.com/102703391/248438154-b2f3cb36-e1c1-4471-bf76-643378d771dc.png",
-		"img": "https://www.kapwing.com/e/64d80ba86a9e93001ebb365d?autoplay=true",
+		"img": "../images/nasa.mp4",
 		"site": "",
 		"content": "This project, using NASA's a picture of the day API and Bootstrap, displays every single NASA's picture of the day (including the image, the high resolution image, the title, description, credit, etc.) from the very first picture to today. It is equipped with an easy to use date picker and runs locally on your own computer. \n \n **Code:** [https://github.com/ashleyliangg/NASA-pictures](https://github.com/ashleyliangg/NASA-pictures)"
 	},

@@ -1,4 +1,6 @@
 import { useState } from "react"
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const ImageSlider = ({ slides }) => {
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -7,6 +9,7 @@ const ImageSlider = ({ slides }) => {
         height: "100%",
         width: "100%",
         position: "relative",
+				marginBottom: "20px",
     };
 
     const slideStyles = {
@@ -27,6 +30,12 @@ const ImageSlider = ({ slides }) => {
         color: '#fff',
         zIndex: 1,
         cursor: 'pointer',
+				borderRadius: '10px',
+				backgroundColor: 'rgba(169, 245, 242, .8)',
+				padding: '5px',
+				display: 'flex',
+				justifyContent: 'center',
+				alignItems: 'center',
     };
 
     const rightArrowStyles = {
@@ -38,17 +47,25 @@ const ImageSlider = ({ slides }) => {
         color: '#fff',
         zIndex: 1,
         cursor: 'pointer',
+				borderRadius: '10px',
+				backgroundColor: 'rgba(169, 245, 242, .8)',
+				padding: '5px',
+				display: 'flex',
+				justifyContent: 'center',
+				alignItems: 'center',
     };
     
     const dotContainer = {
         display: 'flex',
         justifyContent: 'center',
+				marginBottom: '20px'
     }
 
     const dotStyle = {
         margin: '0 3px',
         cursor: 'pointer',
-        fontSize: '20px',
+        fontSize: '40px',
+				color: '#6cd9d5',
     }
 
     const goToPrev = () => {
@@ -69,8 +86,8 @@ const ImageSlider = ({ slides }) => {
 
     return (
         <div style={sliderStyles}>
-            <div style={leftArrowStyles} onClick={goToPrev}>⪻</div>
-            <div style={rightArrowStyles} onClick={goToNext}>⪼</div>
+            <div style={leftArrowStyles} onClick={goToPrev}><ArrowBackIosNewIcon/></div>
+            <div style={rightArrowStyles} onClick={goToNext}><ArrowForwardIosIcon/></div>
             <div style={slideStyles}></div>
             <div style={dotContainer}>
                 {slides.map((slide) => (

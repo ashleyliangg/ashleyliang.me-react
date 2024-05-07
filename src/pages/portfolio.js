@@ -6,10 +6,8 @@ import animal from '../images/animal_posts.gif';
 
 const Portfolio = () => {
 	let projects = require('../projects.json');
-	console.log(projects.chatGPT.name);
 
 	const projectItems = Object.entries(projects).map((project) => {
-		console.log(project[1].coverImg);
 		return (
 			<NavLink key={project[1].name} className="navlink" to={`/portfolio/${project[1].name}`}>
 				<div className="projectItem-container">

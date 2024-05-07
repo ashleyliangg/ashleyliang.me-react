@@ -5,20 +5,28 @@ import { NavLink } from "react-router-dom";
 
 const Project = () => {
 	const projName = useParams().project;
-	console.log(projName);
 	const projects = require('../projects.json');
-	console.log(projects[projName]);
 	const project = projects[projName];
 
 	const displayMedia = (srcLink) => {
-		if (srcLink.slice(0, 24) === "https://www.kapwing.com/") {
+		// if (srcLink.slice(0, 24) === "https://www.kapwing.com/") {
+		// 	return (
+		// 		<iframe className="project-vid" allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src={srcLink} title="Embedded content made on Kapwing" width="100%"></iframe>
+		// 	)
+		// }
+		if (srcLink.slice(-3) === "mp4") {
 			return (
-				<iframe className="project-vid" allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src={srcLink} title="Embedded content made on Kapwing" width="100%"></iframe>
+				<div className="video">
+					<video autoPlay muted loop>
+						<source src={srcLink} />
+					</video>
+				</div>
+
 			)
 		}
 		else {
 			return (
-				<img className="center project-img" src={srcLink} alt="project" />		
+				<img className="center project-img" src={srcLink} alt="project" />
 			)
 		}
 	}

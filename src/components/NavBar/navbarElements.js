@@ -4,7 +4,8 @@ import styled from "styled-components";
   
 //styled components
 export const Nav = styled.nav`
-  background: #a9f5f2;
+  background: #FFFFFF;
+	border-bottom: 5px solid rgba(169, 245, 242, .6);
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -12,6 +13,9 @@ export const Nav = styled.nav`
   padding: 0.2rem calc((100vw - 1000px) / 2);
   //nav always at top
   z-index: 12;
+	margin-top: 0;
+	position: sticky;
+	top: 0;
 `;
  
 //css styled links
@@ -33,8 +37,8 @@ export const NavLink = styled(Link)`
 
 //home link with stylized "Ashley Liang"
 export const HomeLink = styled(Link)`
-  color: #FFFFFF;
-  font-weight: bold;
+  color: #6cd9d5;
+  font-weight: 1000;
   font-family: "Snell Roundhand", cursive;
   display: flex;
   align-items: center;
