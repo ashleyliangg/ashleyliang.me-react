@@ -25,3 +25,9 @@ While creating this website, I took a lot of information from different website 
 
 ## How To Deploy To Website
 To deploy new changes to ashleyliang.me, run `npm run deploy`
+
+## Screenshots
+![screencapture-ashleyliang-me-2024-05-07-23_17_53](https://github.com/ashleyliangg/ashleyliang.me-react/assets/102703391/7f9bd8d7-c21d-4f58-9ed0-87975a9537b2)
+![screencapture-ashleyliang-me-roadtrip-2024-05-07-23_18_12](https://github.com/ashleyliangg/ashleyliang.me-react/assets/102703391/b3f5a531-dedf-4604-95ec-77f71683b3c6)
+![screencapture-ashleyliang-me-portfolio-2024-05-07-23_18_07](https://github.com/ashleyliangg/ashleyliang.me-react/assets/102703391/ecc5a830-cf79-4c57-93bd-d15fca0e2e9d)
+
